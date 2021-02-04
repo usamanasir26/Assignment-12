@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Slider</title>
+</head>
+
+<body>
+    <div class="sliderContainer">
+        <div class="mySlide fade">
+            <div class="numbering">1/3</div>
+            <img src="./gettyimages-907914534-1590070809.jpg" alt="">
+        </div>
+        <div class="mySlide fade">
+            <div class="numbering">2/3</div>
+            <img src="./nature-1.jpg" alt="">
+        </div>
+        <div class="mySlide fade">
+            <div class="numbering">3/3</div>
+            <img src="./Altja_jõgi_Lahemaal.jpg" alt="">
+        </div>
+        <span> <a class="prev" onclick="plusSlides(-1)">&#10094;</a> </span>
+        <span> <a class="next" onclick="plusSlides(1)">&#10095;</a> </span>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="./script.js"></script>
+    <script src="/__/firebase/8.2.5/firebase-app.js"></script>
+    <script src="/__/firebase/init.js"></script>
+</body>
+
+</html>
